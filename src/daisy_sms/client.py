@@ -52,7 +52,6 @@ class DaisySmsClient:
             raise NotEnoughBalanceLeftError
         elif r.text.startswith("ACCESS_BALANCE"):
             raise InvalidApiKeyError
-        print(type(r.text))
         id_pattern = r'[?&]id=([^&]+)'
         number_pattern = r'^[^-]+'
         rentals = []
