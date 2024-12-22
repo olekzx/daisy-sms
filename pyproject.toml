@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "daisy-sms"
+version = "1.0.1"
+description = "simple daisy sms api wrapper"
+dependencies = ["requests >= 2.28.2"]
+readme = { file = "README.md", content-type = "text/markdown" }
+authors = [{name = "olezx", email = "olekzx@python.com"}]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["python", "daisy", "daisysms", "sms", "api", "wrapper"]
+requires-python = ">=3.10"
+
+[project.urls]
+"Homepage" = "https://github.com/olekzx/daisy-sms"
+"Bug Tracker" = "https://github.com/olekzx/daisy-sms/issues"
